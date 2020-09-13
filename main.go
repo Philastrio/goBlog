@@ -17,5 +17,5 @@ func main() {
 	e := echo.New()
 	e.GET("/", hello)
 
-	e.Start(":7 000")
+	e.Start(":7000")
 }
